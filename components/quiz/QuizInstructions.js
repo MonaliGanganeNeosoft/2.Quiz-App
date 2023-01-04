@@ -23,7 +23,29 @@ const QuizInstructions = () => (
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa,
           fugit?
         </li>
+        <img
+          src="https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/59/2019/03/27130027/complex-300x180.png"
+          alt="Quiz app answer example"
+        />
+        <li>
+          Lorem ipsum dolor sit.
+          <ul id="sublist">
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+          </ul>
+        </li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
       </ul>
+      <div>
+        <span className="left">
+          <Link className="left" to="/">
+            No take me back
+          </Link>
+          <Link className="right" to="/play/instructions">
+            Okay lets to this
+          </Link>
+        </span>
+      </div>
     </div>
   </>
 );
